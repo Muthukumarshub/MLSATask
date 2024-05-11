@@ -1,0 +1,121 @@
+@import "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap";
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+  overflow-x: hidden;
+}
+
+div#main {
+  width: 100vw;
+  flex-direction: column;
+  display: flex;
+}
+
+section {
+  width: 100vw;
+  position: relative;
+}
+
+section.min-height {
+  min-height: 100vh;
+}
+
+section.padding {
+  padding: 5rem 0;
+}
+
+section img.background {
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  width: 100vmax;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+h1 {
+  margin: 0;
+  font-family: Cormorant Garamond, serif;
+  font-size: 7rem;
+  font-weight: 400;
+  line-height: .8;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+p {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+p.large {
+  font-size: 24px;
+}
+
+p.small {
+  font-size: 15px;
+}
+
+hr {
+  margin: 2.5rem;
+}
+
+li {
+  line-height: 1.7;
+}
+
+li::marker {
+  color: #4e567e;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4e567e;
+}
+
+.container {
+  grid-gap: 20px;
+  grid-template-columns: 330px 300px;
+  margin: 20px auto;
+  display: grid;
+}
+
+.container .box {
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 24px 16px;
+  display: flex;
+}
+
+img.socialIcon {
+  height: 30px;
+  width: 30px;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
